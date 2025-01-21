@@ -26,13 +26,13 @@ while True:
         continue
 
 
-init_divider = '\n...................."1' + user_sel + '"....................'
-init_print = '\nThis is the start of "1' + user_sel + '" part.'
-init_continue = 'Press Enter to continue with "1' + user_sel + '"...\n'
+init_divider = '\n...................."2.1' + user_sel + '"....................'
+init_print = '\nThis is the start of "2.1' + user_sel + '" part.'
+init_continue = 'Press Enter to continue with "2.1' + user_sel + '"...\n'
 
 
 ####################################################
-# Start of "1a" part of exercise
+# Start of "2.1a" part of exercise
 ####################################################
 if user_sel == 'a':
     print(init_divider)
@@ -68,7 +68,7 @@ if user_sel == 'a':
     # Extra silly stuff
 
     check_silly = input("\nDo you want to continue with silly stuff?\n"
-                        "If press 'y' then enter, else just enter.\n")
+                        "If yes, press 'y' then enter, else just enter.\n")
 
     # Make sure both lower (y) and upper (Y) case is accepted
     check_silly = check_silly.lower()
@@ -90,7 +90,7 @@ if user_sel == 'a':
 
 
 ####################################################
-# Start of "1b" part of exercise
+# Start of "2.1b" part of exercise
 ####################################################
 elif user_sel == 'b':
     print(init_divider)
@@ -121,7 +121,7 @@ elif user_sel == 'b':
 
 
 ####################################################
-# Start of "1c" part of exercise
+# Start of "2.1c" part of exercise
 ####################################################
 elif user_sel == 'c':
     print(init_divider)
