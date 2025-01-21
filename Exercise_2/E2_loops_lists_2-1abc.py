@@ -1,5 +1,5 @@
 #####################################################################
-# Jan Berglund - E2_loops_lists_1abc.py
+# Jan Berglund - E2_loops_lists_2-1abc.py
 #
 # Veckouppgift 3
 # Vecka 4, 20/1
