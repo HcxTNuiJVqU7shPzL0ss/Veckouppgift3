@@ -38,7 +38,6 @@ print('\nWelcome to guess the number game!\nThe AI bot is thinking '
 
 input('\nPress Enter to start playing...')
 
-print(rand_no)
 
 while True:
     try:
