@@ -66,14 +66,14 @@ while True:
                 print('Guesses: ' , guessed)
                 break
             elif user_guess > rand_no:
-                if user_guess in range(rand_no - 5, rand_no + 5, 1):
+                if user_guess in range(rand_no - 5, rand_no + 6, 1):
                     print('You are getting close!')
                 print('\nYou guessed too high!')
                 input('Press Enter to try again!')
                 hi_or_lo = '\nHigh! --> ' + str(user_guess)
                 continue
             else:
-                if user_guess in range(rand_no - 5, rand_no + 5, 1):
+                if user_guess in range(rand_no - 5, rand_no + 6, 1):
                     print('You are getting close!')
                 print('\nYou guessed too low!')
                 input('Press Enter to try again!')
