@@ -58,11 +58,12 @@ while True:
 
             guesses += 1
             guessed.append(user_guess)
+            guessed.sort()
 
             if user_guess == rand_no:
                 print('\nCorrect!' , user_guess , 'was the '
                       'number!' , guesses , 'guesses needed.')
-                print('Guesses: ' , guessed)
+                print('Guesses:' , guessed)
                 break
             elif user_guess > rand_no:
                 if user_guess in range(rand_no - 5, rand_no + 6, 1):
