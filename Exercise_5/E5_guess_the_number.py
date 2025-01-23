@@ -54,7 +54,7 @@ while True:
             continue
         else:
             if user_guess in guessed:
-                print('\nFYI, you guessed that before!\n')
+                print('\n\033[91mFYI, you guessed that before!\033[0m\n')
 
             guesses += 1
             guessed.append(user_guess)
